@@ -25,6 +25,10 @@ Happily excepted!
 - include all other language dumps
 - add a tooltip function (not possible with pydeck but by directly using deck.gl) to open the respective article
 
+## Misc 
+Wikipedia has their own geosearch API but it's limited to max. 500 articles per request: 
+https://en.wikipedia.org/w/api.php?format=json&action=query&list=geosearch&gsprimary=all&gsradius=824&gscoord=45.46394192978659|9.19168819734645&gslimit=500
+
 ## Screenshots of the full map
 ![image](https://github.com/do-me/wikipedia-locations/assets/47481567/720a8c4e-00e5-4300-b53d-96323d0c1bb5)
 ![image](https://github.com/do-me/wikipedia-locations/assets/47481567/44cab643-9ad8-4a6f-a6e4-a06d1c97e7ec)
