@@ -20,7 +20,10 @@ Feel free to reuse all datasets/maps but please give a shoutout.
 
 ## PRs 
 Happily excepted!
-If anyone find's the time, feel free to include all other language dumps!
+
+## To Dos
+- include all other language dumps
+- add a tooltip function (not possible with pydeck but by directly using deck.gl) to open the respective article
 
 ## Screenshots of the full map
 ![image](https://github.com/do-me/wikipedia-locations/assets/47481567/720a8c4e-00e5-4300-b53d-96323d0c1bb5)
