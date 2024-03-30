@@ -1,6 +1,6 @@
 # Wikipedia Locations
 
-A simple repo using a dump of 1 Mio English Wikipedia article IDs with lat lon from 2014 from Ben Dodson:
+A simple repo using a dump of 1 Mio English Wikipedia article IDs and titles with lat lon from 2014 from Ben Dodson:
 - https://bendodson.com/weblog/2014/08/19/retiring-tubeupdates-and-wikilocation/
 - https://bendodson.s3.amazonaws.com/wikilocation-dumps/index.html
 - http://files.bendodson.com.s3.amazonaws.com/wikilocation-dumps/en.sql.gz
@@ -8,7 +8,8 @@ A simple repo using a dump of 1 Mio English Wikipedia article IDs with lat lon f
 The points are colored by article type.
 
 ## Usage
-Download the 
+Have a look at the reduced demo map with ~10% of the data (=100.000 articles): https://do-me.github.io/wikipedia-locations/
+If you want to see the full map, download the `pydeck_wikipedia.html.gz` file, unzip and open with a browser of your choice.
 
 ## Processing
 See the jupyter notebook for the few scripts how to generate the resulting geoparquet file and pydeck map(s) from the mysql dump.
