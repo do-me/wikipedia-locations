@@ -8,11 +8,12 @@ A simple repo using a dump of 1 Mio English Wikipedia article IDs and titles wit
 The points are colored by article type.
 
 ## Usage
-Have a look at the reduced demo map with ~10% of the data (=100.000 articles): https://do-me.github.io/wikipedia-locations/
-If you want to see the full map, download the `pydeck_wikipedia.html.gz` file, unzip and open with a browser of your choice.
+- Have a look at the reduced demo map with ~10% of the data (=100.000 articles): https://do-me.github.io/wikipedia-locations/
+- If you want to see the full map, download the `pydeck_wikipedia.html.gz` file, unzip and open with a browser of your choice.
 
 ## Processing
 See the jupyter notebook for the few scripts how to generate the resulting geoparquet file and pydeck map(s) from the mysql dump.
+If you want to create maps for other languages it should be as easy as downloading the other mysql dumps and rerunning the Python scripts.
 
 ## Reuse 
 Feel free to reuse all datasets/maps but please give a shoutout.
